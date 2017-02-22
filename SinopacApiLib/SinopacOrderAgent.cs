@@ -102,7 +102,10 @@ namespace SinopacApiLib
         
         }
 
-        
+        public void QueryResponseRecord()
+        {
+            string record =  OrderApi.get_response_log();
+        }
 
         public void ModifyFutureOrder()
         { 

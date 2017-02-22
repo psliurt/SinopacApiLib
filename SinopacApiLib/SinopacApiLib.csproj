@@ -51,6 +51,12 @@
     <Compile Include="FutureEnterResult.cs" />
     <Compile Include="OptionEnterResult.cs" />
     <Compile Include="OrderApi.cs" />
+    <Compile Include="Order\SinopacFutureOrder.cs" />
+    <Compile Include="Order\SinopacOptionOrder.cs" />
+    <Compile Include="Order\SinopacStockOrder.cs" />
+    <Compile Include="Parser\ApiResultParser.cs" />
+    <Compile Include="Parser\EnterInfoParser.cs" />
+    <Compile Include="Parser\ParseResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SinopacOrderAgent.cs" />
     <Compile Include="StockEnterResult.cs" />
